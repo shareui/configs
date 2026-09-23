@@ -1,2 +1,2 @@
 [std."0.1.0"]
-universal = "https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/stdlib-0-1-0.tar.zst"
+link = "https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/stdlib-0-1-0.tar.zst"
