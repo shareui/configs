@@ -2,4 +2,12 @@
 link = "https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/stdlib-0.1.0.tar.zst"
 
 [rt."0.1.0"]
-x86_64-unknown-linux-gnu = "https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/yukino-runtime.a"
+x86_64-unknown-linux-gnu = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "87d4f48edc04179c28ff1c447200b7acb82a708dc357714a6d85192c4ee2ac4c"]
+x86_64-unknown-linux-musl = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "6f6281495522482ab39600f389f71ecb93589cf21920b5c1137c1fa4ca66bc52"]
+aarch64-unknown-linux-gnu = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "d8f201babb9a9c2fc1dda020f4bb7a454124eaf4826000018a87e14f363adaae"]
+aarch64-unknown-linux-musl = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "cbe868fdadde604ff997acc3fc6d47cba0815708cc2e55d5a7a358bb35ef489f"]
+armv7-unknown-linux-gnueabihf = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "c0f4bb90605a9706b2ccc3928ba80fb2b5118c142ba696f42551617a44c47972"]
+armv7-unknown-linux-musleabihf = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "bedac3c3a182930eb708c162ac93fd7d6ed762badc8c4b6b92387ce7a214b733"]
+x86_64-pc-windows-gnu = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "d7710c2044d68fff2b824e20f09eb3f3b523d4bfed4899fc997146b06d77008a"]
+aarch64-linux-android = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "a96fc52cfdcebb370b83c2c5b59f47f1cdb3ecdc80204dfb31679b3d15432cec"]
+armv7-linux-androideabi = ["https://github.com/shareui/yuki-stdlib/releases/download/0.1.0/rt-{target}.a", "3a7f58854f921590d54e51c329159a69db9fe230a174348449af2774c12be160"]
